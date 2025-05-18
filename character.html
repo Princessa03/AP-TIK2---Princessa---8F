@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Favorite Character</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fff3f1;
+      color: #4a3f35;
+    }
+
+    .navbar {
+      background-color: #8c5e58;
+      padding: 16px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      color: #fef9f7;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Arial', sans-serif;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffd5c2;
+    }
+
+    .navbar .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #3d2f2b;
+    }
+
+    .image-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.character-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+.character-img:hover {
+  transform: scale(1.03);
+}
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.8;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #8c5e58;
+      color: #fef9f7;
+      margin-top: 60px;
+      font-family: 'Arial', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">My Website</div>
+    <div>
+      <a href="index.html">My Biography</a>
+      <a href="character.html">My Favorite Character</a>
+    </div>
+  </div>
+
+    <!-- Favorite Character Section -->
+    <section>
+        <h1>My Favorite Character</h1>
+
+    <!-- Image Row -->
+    <div class="image-row">
+        <img src="Zhanglurang1.jpg" alt="Luna 1" class="character-img">
+        <img src="Zhanglurang2.jpg" alt="Luna 2" class="character-img">
+        <img src="Zhanglurang3.jpg" alt="Luna 3" class="character-img">
+      </div>
+    
+      <p>If I had to choose one favorite character, it would be <strong>Zhang LuRang</strong> from a chinese drama called When I Fly Towards You</p>
+    <p>I choose him because he's very handsome and quite, but deep down he's caring, smart, and loyal</p>
+  
+</section>
+
+</body>
+</html>
